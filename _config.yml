@@ -1,12 +1,16 @@
 # Site settings
 title: Zzivi
+header-img: img/home-bg.jpg
 email: support@zzivi.com
-description: > # this means to ignore newlines until "baseurl:"
-  Nos gusta la tecnología.
-baseurl: "" # the subpath of your site, e.g. /blog/
-url: "http://zzivi.com" # the base hostname & protocol for your site
+description: "Frikis de la tecnología!"
+url: "http://zzivi.com"
 twitter_username:
-github_username: 
+github_username:  zzivi
+facebook_username: 
 
 # Build settings
 markdown: kramdown
+highlighter: pygments
+permalink: pretty
+paginate: 5
+exclude: ["less","node_modules","Gruntfile.js","package.json","README.md"]
