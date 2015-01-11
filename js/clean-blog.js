@@ -30,15 +30,17 @@ $(function() {
             if (firstName.indexOf(' ') >= 0) {
                 firstName = name.split(' ').slice(0, -1).join(' ');
             }
+            var email_body = 'You have received a new message from your website contact form. Here are the details:\n Name:'+ name +'\nEmail:' + email + '\nPhone: ' + phone +'\nMessage:' + message;
+            var email_subject = 'Website Contact Form: '+name;
             $.ajax({
-                url: "././mail/contact_me.php",
-                type: "POST",
+                url: "//formspree.io/support@zzivi.com",
+                method: "POST",
                 data: {
-                    name: name,
-                    phone: phone,
-                    email: email,
-                    message: message
+                    _replyto: email,
+                    _subject: email_subject,
+                    message: email_body
                 },
+                dataType: "json",
                 cache: false,
                 success: function() {
                     // Success message
@@ -46,7 +48,7 @@ $(function() {
                     $('#success > .alert-success').html("<button type='button' class='close' data-dismiss='alert' aria-hidden='true'>&times;")
                         .append("</button>");
                     $('#success > .alert-success')
-                        .append("<strong>Your message has been sent. </strong>");
+                        .append("<strong>Tu mensaje ha sido enviado. </strong>");
                     $('#success > .alert-success')
                         .append('</div>');
 
@@ -58,7 +60,7 @@ $(function() {
                     $('#success').html("<div class='alert alert-danger'>");
                     $('#success > .alert-danger').html("<button type='button' class='close' data-dismiss='alert' aria-hidden='true'>&times;")
                         .append("</button>");
-                    $('#success > .alert-danger').append("<strong>Sorry " + firstName + ", it seems that my mail server is not responding. Please try again later!");
+                    $('#success > .alert-danger').append("<strong>Lo sentimos " + firstName + ", parece que el servidor de correo no está respondiendo. Por favor, prueba de nuevo más tarde!");
                     $('#success > .alert-danger').append('</div>');
                     //clear all fields
                     $('#contactForm').trigger("reset");
