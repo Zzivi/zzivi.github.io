@@ -7,3 +7,5 @@
 # Ignore unneeded files.
 *.swp
 *~
+_site
+.sass-cache
