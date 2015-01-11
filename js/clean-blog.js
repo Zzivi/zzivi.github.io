@@ -23,14 +23,13 @@ $(function() {
             // get values from FORM
             var name = $("input#name").val();
             var email = $("input#email").val();
-            var phone = $("input#phone").val();
             var message = $("textarea#message").val();
             var firstName = name; // For Success/Failure Message
             // Check for white space in name for Success/Fail message
             if (firstName.indexOf(' ') >= 0) {
                 firstName = name.split(' ').slice(0, -1).join(' ');
             }
-            var email_body = 'You have received a new message from your website contact form. Here are the details:\n Name:'+ name +'\nEmail:' + email + '\nPhone: ' + phone +'\nMessage:' + message;
+            var email_body = 'You have received a new message from your website contact form. Here are the details:\n Name:'+ name +'\nEmail:' + email + '\nMessage:' + message;
             var email_subject = 'Website Contact Form: '+name;
             $.ajax({
                 url: "//formspree.io/support@zzivi.com",
@@ -269,7 +268,7 @@ $('#name').focus(function() {
                         //                                                     EMAIL
                         // ---------------------------------------------------------
                         if ($this.attr("type") !== undefined && $this.attr("type").toLowerCase() === "email") {
-                            message = "Not a valid email address<!-- data-validator-validemail-message to override -->";
+                            message = "Dirección de email no válida<!-- data-validator-validemail-message to override -->";
                             if ($this.data("validationValidemailMessage")) {
                                 message = $this.data("validationValidemailMessage");
                             } else if ($this.data("validationEmailMessage")) {
