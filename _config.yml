@@ -14,3 +14,26 @@ highlighter: pygments
 permalink: pretty
 paginate: 5
 exclude: ["less","node_modules","Gruntfile.js","package.json","README.md"]
+
+# Members information. Shown on About page.
+members:
+  - name: Romina Liuzzi
+    position: Android Developer
+    text:
+    img: team01.jpg
+    social:
+      - title: envelope #use for email address
+        url: mailto:romina.liuzzi@zzivi.com
+      - title: github
+        url: http://github.com/rliuzzi
+  - name: Daniel Viorreta
+    position: DevOps
+    text:
+    img: team02.jpg
+    social:
+      - title: envelope #use for email address
+        url: mailto:daniel.viorreta@zzivi.com
+      - title: github
+        url: http://github.com/danielviorreta
+      - title: linkedin
+        url: http://es.linkedin.com/in/danielviorreta

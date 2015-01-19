@@ -5,7 +5,37 @@ description: "This is what we do."
 header-img: "img/about-bg.jpg"
 ---
 
-<p> We are a couple who are apassionate about the technology. We have dediced to open this website to share everything that we are learning and the projects that we are making. The only goal is to have fun and learn the most that we can.</p>
+<p> We are a couple who are apassionate about the technology. We have decided to open this website to share everything that we are learning and the projects that we are making. The only goal is to have fun and learn the most that we can.</p>
 
 
 <p>If you are interested about something that we are doing do not hesitate to tell  <a href="/contact">us</a> hello!. Maybe we can help you :P</p>
+
+<div class="container mtb">
+    <div class="row">
+        <h3 class="mb">Meet Us</h3>     
+        {% for member in site.members %}
+            <div class="col-lg-3 col-md-3 col-sm-3">
+                <div class="he-wrap tpl6">
+                <img src="{{ "/img/members/" | prepend: site.baseurl }}{{ member.img }}" alt="">
+                    <div class="he-view">
+                        <div class="bg a0" data-animate="fadeIn">
+                            <h3 class="a1" data-animate="fadeInDown">Contact Me:</h3>
+                            {% for entry in member.social %}
+                                <a href="{{ entry.url }}" class="dmbutton a2" data-animate="fadeInUp"><i class="fa fa-{{ entry.title }}"></i></a>
+                            {% endfor %}
+                        </div><!-- he bg -->
+                    </div><!-- he view -->      
+                </div><!-- he wrap -->
+                <h4>{{ member.name }}</h4>
+                <h5 class="ctitle">{{ member.position }}</h5>
+                <p>{{ member.text }}</p>
+                <div class="hline"></div>
+            </div><! --/col-lg-3 -->        
+        {% endfor %}
+
+    </div><! --/row -->
+</div><! --/container -->
+
+
+        
+   
