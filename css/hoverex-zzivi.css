@@ -63,3 +63,18 @@
 	-webkit-appearance: none;
 	font-weight: normal !important;
 }
+
+.ctitle {
+	color: #808080;
+	font-weight: 700;
+	margin-bottom: 15px;
+}
+
+.hline {
+	border-bottom: 2px solid #808080;
+}
+
+.hline-w {
+	border-bottom: 2px solid #ffffff;
+	margin-bottom: 25px;
+}
