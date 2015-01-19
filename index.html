@@ -1,6 +1,6 @@
 ---
 layout: page
-description: "Los que hablamos de tecnología y de cosas :P"
+description: "Those who talk about technology and things :P"
 ---
 
 {% for post in paginator.posts %}
@@ -14,7 +14,7 @@ description: "Los que hablamos de tecnología y de cosas :P"
         </h3>
         {% endif %}
     </a>
-    <p class="post-meta">Publicado por {{ post.author }} el {{ post.date | date: "%B %-d, %Y" }}</p>
+    <p class="post-meta">Posted by {{ post.author }} on {{ post.date | date: "%B %-d, %Y" }}</p>
 </div>
 <hr>
 {% endfor %}

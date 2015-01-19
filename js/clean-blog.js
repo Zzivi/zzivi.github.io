@@ -47,7 +47,7 @@ $(function() {
                     $('#success > .alert-success').html("<button type='button' class='close' data-dismiss='alert' aria-hidden='true'>&times;")
                         .append("</button>");
                     $('#success > .alert-success')
-                        .append("<strong>Tu mensaje ha sido enviado. </strong>");
+                        .append("<strong>Your message has been sent. </strong>");
                     $('#success > .alert-success')
                         .append('</div>');
 
@@ -59,7 +59,7 @@ $(function() {
                     $('#success').html("<div class='alert alert-danger'>");
                     $('#success > .alert-danger').html("<button type='button' class='close' data-dismiss='alert' aria-hidden='true'>&times;")
                         .append("</button>");
-                    $('#success > .alert-danger').append("<strong>Lo sentimos " + firstName + ", parece que el servidor de correo no está respondiendo. Por favor, prueba de nuevo más tarde!");
+                    $('#success > .alert-danger').append("<strong>Sorry " + firstName + ", it seems that my mail server is not responding. Please try again later!");
                     $('#success > .alert-danger').append('</div>');
                     //clear all fields
                     $('#contactForm').trigger("reset");
@@ -268,7 +268,7 @@ $('#name').focus(function() {
                         //                                                     EMAIL
                         // ---------------------------------------------------------
                         if ($this.attr("type") !== undefined && $this.attr("type").toLowerCase() === "email") {
-                            message = "Dirección de email no válida<!-- data-validator-validemail-message to override -->";
+                            message = "Not valid email address<!-- data-validator-validemail-message to override -->";
                             if ($this.data("validationValidemailMessage")) {
                                 message = $this.data("validationValidemailMessage");
                             } else if ($this.data("validationEmailMessage")) {
