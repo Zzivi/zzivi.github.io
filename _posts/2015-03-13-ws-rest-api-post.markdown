@@ -4,7 +4,7 @@ title:      "Web Services and REST APIs"
 subtitle:   "Useful terminology"
 date:       2015-01-23 00:00:00
 author:     "rliuzzi"
-header-img: "img/post-bg-03.jpg"
+header-img: "img/post-bg-06.jpg"
 ---
 <h2>WEB SERVICES:</h2>
 <p>

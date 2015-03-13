@@ -4,7 +4,7 @@ title:      "SOA on to API, on to Microservices?"
 subtitle:   "We all have a past"
 date:       2015-03-13 00:00:00
 author:     "rliuzzi"
-header-img: "img/post-bg-05.jpg"
+header-img: "img/post-bg-06.jpg"
 ---
 <p>
 I also have a past: I gave technical assistance (and sometimes moral support) to Web Services clients. 
