@@ -1,18 +1,42 @@
 ---
 layout:     post
-title:      "Welcome"
-subtitle:   "Those who talk about technology"
-date:       2015-01-23 00:00:00
-author:     "Zzivi"
-header-img: "img/post-bg-06.jpg"
+title:      "SOA on to API, on to Microservices?"
+subtitle:   "We all have a past"
+date:       2015-03-13 00:00:00
+author:     "rliuzzi"
+header-img: "img/post-bg-05.jpg"
 ---
-<p>Ok, so broad as it sounds: we talk about technology. On a normal day, during breakfast we run through frameworks, libraries, tools, APIs, apps, meetups, TEDs, hackathons, events and ... occasionally mention football.</p>
+<p>
+I also have a past: I gave technical assistance (and sometimes moral support) to Web Services clients. 
+During this time I learned two very valuable lessons:
+<ol>
+<li>A contract is more serious than a marriage</li>
+<li>Legacy services are like Chuck Norris, chances are they simply won't die</li>
+</ol>
+</p>
+<p>
+So I learned to develop, use, troubleshoot and live with these services.
+</p>
+<p>
+By that time WS were far from trendy and not cool enough to be regarded as "vintage". 
+Back then the world (read: google, fb, twitter) was taking about REST APIs and of course we dived in.
+I learned that with REST APIs it is all about the model and if is consistent your life is much easier.
+</p>
+<p>
+Now I am an Android developer so I am both provider and consumer of these services.
+<ol>
+<li>A contract is still more serious than a marriage</li>
+<li>It is more hurtful breaking your own client</li>
+<li>Entity: To be or not be, with REST this truly is the question.</li>
+</p>
+<p>
+<b>Microservices</b> bells are ringing and I can only assume it will get messy before it gets fancy ;D. 
+<b>No pain, no gain</b>.
+</p>
 
-<p>Then we go back to work and live the normal developer life, which (lets admit it) is frustrating. 
-There are potential fight triggers all around: a proxy change, an expired certificate, a stacks limit exceeded exception, failing acceptance tests, or an assortment of many other stupid things that might (and will) go wrong eventually.</p> 
 
-<p>I confess I get upset when things don’t work, and unfortunately things don’t always go smoothly. Luckily we both learn along the way. For instance, I learned my boyfriend is not responsible for everything that will potentially go wrong during a User Story. He is actually pretty damn good at what he does! He, on the other hand, learned that I am very demanding and I always expect 11 out of 10, and thath makes him more demanding as well. So we both rock!</p>
 
-<p>Which brings us back to the beginning, we talk about technology shaped into a marital argument. A developer and a DevOps engineer that must get along because they are simply made for each other.</p>
 
-<p>Enjoy our technological “fights”!!</p>
+
+
+
