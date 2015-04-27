@@ -56,7 +56,7 @@ In this example we set up an alias record set responding to an ELB:
           "Type" : "A",
             "AliasTarget" : {
               "HostedZoneId" : { "Fn::GetAtt" : ["myELB", "CanonicalHostedZoneNameID"] },
-              "DNSName" : { "Fn::GetAtt" : ["myELB","CanonicalHostedZoneName"] }
+              "DNSName" : { "Fn::GetAtt" : ["myELB","DNSName"] }
             }
           }
         ]
@@ -121,7 +121,7 @@ In this example we create an internal ELB, a private hosted zone and an alias re
           "Type" : "A",
             "AliasTarget" : {
               "HostedZoneId" : { "Fn::GetAtt" : ["myELBPriv", "CanonicalHostedZoneNameID"] },
-              "DNSName" : { "Fn::GetAtt" : ["myELBPriv","CanonicalHostedZoneName"] }
+              "DNSName" : { "Fn::GetAtt" : ["myELBPriv","DNSName"] }
             }
           }
         ]
