@@ -130,4 +130,9 @@ In this example we create an internal ELB, a private hosted zone and an alias re
 {% endhighlight %}
 </p>
 
+<h2>Useful links</h2>
+
+[Example of how to set Route53 manually step by step](http://www.cloudtrail.org/blog/339amazon-route-53-easy-example/).
+
+[Amazon Route 53 Template Snippets](http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/quickref-route53.html).
 
