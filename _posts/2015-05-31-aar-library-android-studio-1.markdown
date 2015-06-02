@@ -44,6 +44,7 @@ Library projects cannot be compiled to Android applications and started without 
 	<li><b>Project:&nbsp;</b>AppCore</li>
 	<li><b>Module Application:&nbsp;</b>app</li>
 	<li><b>Module Library:&nbsp;</b>apilibrary</li>
+</ul>
 Within Android Studio (v1 and above) right click on your Project structure and choose the option "new module".
 </p>
 [SOURCE CODE](https://github.com/rliuzzi/apilibrary)

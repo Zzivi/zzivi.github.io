@@ -2,7 +2,7 @@
 layout:     post
 title:      "Android Material Palette for Web"
 subtitle:   "Big things in life start with an inocent question"
-date:       2016-02-06 00:00:00
+date:       2015-02-06 00:00:00
 author:     "Romina"
 header-img: "img/post-bg-06.jpg"
 ---
