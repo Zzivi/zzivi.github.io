@@ -22,9 +22,10 @@ It might also include /assets/, /libs/, /jni/, /profguard.txt and /lint.jar.
 
 <h3>Why use an .aar?</h3>
 <p>
-Often after building one or two applications you find common code you could like to pull out of your project and centralize in one location. You can then add the library to your project as a gradle dependency and make all changes only in one place rather than copy pasting bug fixes to several repos.  
-Once your library is all neat and ready you can share it with the community and spare some fellow developers the work you have just gone through.
-You can also benefit from community solutions by integrating third party libraries into your project.
+Often after building one or two applications you find common code you could like to pull out of your project and centralize in one location. You can then add the library to your project as a gradle dependency and make all changes only in one place rather than copy pasting bug fixes to several repos.
+</p>
+<p>
+Once your library is all neat and ready you can share it with the community and spare some fellow developers the work you have just gone through.You can also benefit from community solutions by integrating third party libraries into your project.
 </p>
 <p>
 In summary you use .aar libraries to:
@@ -40,9 +41,9 @@ In summary you use .aar libraries to:
 It is not necessary, but I recommend having all your source code into a git repo.
 Library projects cannot be compiled to Android applications and started without another project using them, so for testing purposes I first created a project and then created a module.
 <ul>
-	<li><b>Project:</b>AppCore</li>
-	<li><b>Module Application:</b>app</li>
-	<li><b>Module Library:</b>apilibrary</li>
+	<li><b>Project:&nbsp;</b>AppCore</li>
+	<li><b>Module Application:&nbsp;</b>app</li>
+	<li><b>Module Library:&nbsp;</b>apilibrary</li>
 Within Android Studio (v1 and above) right click on your Project structure and choose the option "new module".
 </p>
 [SOURCE CODE](https://github.com/rliuzzi/apilibrary)
