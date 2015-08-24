@@ -3,7 +3,7 @@ layout:     post
 title:      "Route53 and ELBs"
 subtitle:   "About private zones and private ELBs"
 date:       2015-04-27 00:00:00
-author:     "viorreta"
+author:     "Daniel Viorreta"
 header-img: "img/route-53-logo2.png"
 ---
 

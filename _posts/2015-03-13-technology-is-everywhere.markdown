@@ -3,7 +3,7 @@ layout:     post
 title:      "SOA on to API, on to Microservices?"
 subtitle:   "We all have a past"
 date:       2015-03-13 00:00:00
-author:     "rliuzzi"
+author:     "Romina Liuzzi"
 header-img: "img/post-bg-06.jpg"
 ---
 <p>

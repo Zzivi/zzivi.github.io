@@ -3,7 +3,7 @@ layout:     post
 title:      "Building an AAR Library in Android Studio"
 subtitle:   "Part 1: Intro and Setup"
 date:       2015-05-31 20:00:00
-author:     "Romina"
+author:     "Romina Liuzzi"
 header-img: "img/post-bg-06.jpg"
 ---
 

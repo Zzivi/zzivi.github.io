@@ -3,7 +3,7 @@ layout:     post
 title:      "Reusing VPCs between stacks"
 subtitle:   "About reusing vpcs, security groups and route53 zones when deploying new stacks"
 date:       2015-05-18 00:00:00
-author:     "viorreta"
+author:     "Daniel Viorreta"
 header-img: "img/post-bg-06.jpg"
 ---
 

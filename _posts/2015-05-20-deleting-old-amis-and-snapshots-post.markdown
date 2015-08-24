@@ -3,7 +3,7 @@ layout:     post
 title:      "Deleting old AMIs and snapshots"
 subtitle:   "About deleting old AMIs by date and orphaned snapshots"
 date:       2015-05-20 00:00:00
-author:     "viorreta"
+author:     "Daniel Viorreta"
 header-img: "img/post-bg-06.jpg"
 ---
 

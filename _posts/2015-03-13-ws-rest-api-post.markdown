@@ -3,7 +3,7 @@ layout:     post
 title:      "Web Services and REST APIs"
 subtitle:   "Useful terminology"
 date:       2015-01-23 00:00:00
-author:     "rliuzzi"
+author:     "Romina Liuzzi"
 header-img: "img/post-bg-06.jpg"
 ---
 <h2>WEB SERVICES:</h2>
