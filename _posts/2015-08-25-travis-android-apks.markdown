@@ -8,7 +8,7 @@ header-img: "img/travis-bg.png"
 ---
 
 <h2>Motivation</h2>
-I wanted that every time that I commit a change in my Android repo a new APK is automatically generated and stored. Although I use Jenkins as my Continuous Integration server at work, I used Travis CI for this project. Travis CI launched Android Builds Support in Beta and I wanted to give them a chance :P 
+I wanted that every time that I commit a change in my Android repo a new APK is automatically generated and stored. Although I use Jenkins as my Continuous Integration server at work, I use Travis CI for this project. Travis CI launched Android Builds Support in Beta and I wanted to give them a chance :P 
 
 <h2>Building the project</h2>
 Travis CI automatically detects when a commit has been made and pushed to a GitHub repository that is using Travis CI, and each time this happens, it will try to build the project and run tests.
@@ -18,9 +18,12 @@ Following the instructions that Travis CI provides is very easy to setup your pr
 
 
 <h2>Uploading the APK in GitHub Releases</h2>
+<p>
 Travis can upload the artifacts of your build in AWS S3. But I want to have the APK in the same place where a I have my code (I save a little of money too :P)
-So I setup my yaml file to, every time that a new tag in Github is created, upload the APK to GitHub Releases. If you use Git Flow, every time that a new release is created you will have your APK ready to be publish in Google Play.
-
+</p>
+<p>
+So I setup my yaml file to upload the APK to GitHub Releases every time that a new tag in Github is created. If you use Git Flow, it will create a tag automatically for each release. So you will have your APK ready to be published in Google Play.
+</p>
 {% highlight yaml %}
 language: android
 script: ./gradlew build assembleRelease
@@ -47,7 +50,7 @@ notifications:
     on_failure: always
 {% endhighlight %}
 
-Notice that I use <i>./gradlew build assembleRelease</i> to avoid launch the Android emulator. In the <i>deploy</i> section only is the configuration to upload the apk when a tag is created.
+Notice that I use <i>./gradlew build assembleRelease</i> to avoid launching the Android emulator. The <i>deploy</i> section has the configuration to upload the apk only when a tag is created.
 
 [Android App using Travis](https://github.com/zzivi/Sodexo)
 <br>

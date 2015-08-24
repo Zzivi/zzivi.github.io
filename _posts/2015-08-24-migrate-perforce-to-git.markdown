@@ -19,12 +19,17 @@ Perforce launched a very nice tool called Git Fusion. With Git Fusion you can wo
 </p>
 
 <p>
-Git Fusion has a lot of cool features that if you want to continue using Perforce you could use. But, as I only use GitFusion to move to Git, I only set the configuration that I needed.
+Git Fusion is a powerfull tool that allows you keep using Perforce through it. But, as I only used it to move to Git, I just set the configuration that I needed.
 </p>
-<p>
-I installed a new machine in Amazon Web Services with the rpms of GitFusion because my Perforce server was an old machine in our datacenter with RedHat 4. Once GitFusion is configured, you will find a new Perforce user called <i> git-fusion-user </i>. A new Perforce depot in <i> //.git-fusion </i> will be automatically created too.
 
+<p>
+My Perforce server was an old machine in our datacenter with RedHat 4 and Git Fusion was only available from RedHat 5. So, I installed a new machine in Amazon Web Services with the rpms of Git Fusion.
 </p>
+
+<p>
+Once GitFusion is configured, you will find a new Perforce user called <i> git-fusion-user </i>. A new Perforce depot in <i> //.git-fusion </i> will be automatically created too.
+</p>
+
 <p> I set my user adding a new file in <i> //.git-fusion/users/daniel.viorreta/keys/keymac </i> with my ssh public key. Then, I created a file like this <i> //.git-fusion/repos/myrepo/p4gf_config </i> for each repo that I wanted to migrate. As I used peforce streams my file looks like this:
 
 {% highlight ini %}
@@ -56,7 +61,7 @@ Notice that the first time that you clone the repo Git Fusion will translate all
 
 <h2>GitHub</h2>
 <p>
-Once that I GitFusion running I wanted to move my Git repo to GitHub. So I cloned my Git Fusion repo with the bare option. After creating a new empty repo in GitHub, I pushed my changes to new repo adding a new remote to my Git configuration: 
+Once that I had Git Fusion running I wanted to move my Git repo to GitHub. So I cloned my Git Fusion repo with the bare option. After creating a new empty repo in GitHub, I pushed my changes to the new repo adding a new remote to my Git configuration: 
 
 {% highlight bash %}
 git clone git@git.gitfusion.zzivi.com:myrepo --bare  #clone repo from Git Fusion
