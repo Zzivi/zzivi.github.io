@@ -57,6 +57,7 @@ Notice that the first time that you clone the repo Git Fusion will translate all
 <h2>GitHub</h2>
 <p>
 Once that I GitFusion running I wanted to move my Git repo to GitHub. So I cloned my Git Fusion repo with the bare option. After creating a new empty repo in GitHub, I pushed my changes to new repo adding a new remote to my Git configuration: 
+
 {% highlight bash %}
 git clone git@git.gitfusion.zzivi.com:myrepo --bare  #clone repo from Git Fusion
 git remote add github git@github.com:zzivi/myrepo.git # add github remote
