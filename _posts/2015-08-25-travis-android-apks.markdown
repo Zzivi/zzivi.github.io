@@ -1,7 +1,7 @@
 ---
 layout:     post
 title:      "Generate Android APKs with Travis"
-subtitle:   "Saving Android APKs in Github automatically with Travis"
+subtitle:   "Automatically upload Android APKs to Github Releases with Travis"
 date:       2015-08-25 00:00:00
 author:     "Daniel Viorreta"
 header-img: "img/travis-bg.png"
