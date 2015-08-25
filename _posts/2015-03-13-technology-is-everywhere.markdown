@@ -5,7 +5,7 @@ subtitle:   "We all have a past"
 date:       2015-03-13 00:00:00
 author:     "Romina Liuzzi"
 header-img: "img/post-bg-06.jpg"
-icon-img:   "img/icons/android.jpg"
+icon-img:   "img/icons/ws.jpg"
 ---
 <p>
 I also have a past: I gave technical assistance (and sometimes moral support) to Web Services clients. 
