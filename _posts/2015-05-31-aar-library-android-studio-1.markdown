@@ -5,6 +5,7 @@ subtitle:   "Part 1: Intro and Setup"
 date:       2015-05-31 20:00:00
 author:     "Romina Liuzzi"
 header-img: "img/post-bg-06.jpg"
+icon-img:   "img/icons/android.jpg"
 ---
 
 <h3>What is an ".aar" library?</h3>

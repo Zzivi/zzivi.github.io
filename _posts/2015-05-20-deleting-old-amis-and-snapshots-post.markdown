@@ -5,6 +5,7 @@ subtitle:   "About deleting old AMIs by date and orphaned snapshots"
 date:       2015-05-20 00:00:00
 author:     "Daniel Viorreta"
 header-img: "img/post-bg-06.jpg"
+icon-img:   "img/icons/amazon.png"
 ---
 
 <h2>Deleting AMIs by date</h2>

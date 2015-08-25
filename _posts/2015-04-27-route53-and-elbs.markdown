@@ -5,6 +5,7 @@ subtitle:   "About private zones and private ELBs"
 date:       2015-04-27 00:00:00
 author:     "Daniel Viorreta"
 header-img: "img/route-53-logo2.png"
+icon-img:   "img/icons/amazon.png"
 ---
 
 <p>

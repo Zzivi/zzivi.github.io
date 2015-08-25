@@ -5,6 +5,7 @@ subtitle:   "Useful terminology"
 date:       2015-01-23 00:00:00
 author:     "Romina Liuzzi"
 header-img: "img/post-bg-06.jpg"
+icon-img:   "img/icons/android.jpg"
 ---
 <h2>WEB SERVICES:</h2>
 <p>

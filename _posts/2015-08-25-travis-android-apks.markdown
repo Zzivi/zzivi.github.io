@@ -5,6 +5,7 @@ subtitle:   "Automatically upload Android APKs to Github Releases with Travis"
 date:       2015-08-25 00:00:00
 author:     "Daniel Viorreta"
 header-img: "img/travis-bg.png"
+icon-img:   "img/icons/android.jpg"
 ---
 
 <h2>Motivation</h2>

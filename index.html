@@ -6,7 +6,15 @@ description: "Those who talk about technology and things :P"
 {% for post in paginator.posts %}
 <div class="post-preview">
     <a href="{{ post.url | prepend: site.baseurl }}">
-        <h2 class="post-title">            {{ post.title }}
+
+        <h2 class="post-title">           
+            {% if post.icon-img %}
+            <span class="fa-stack fa-lg">
+                <img src="{{ site.baseurl }}/{{ post.icon-img }}" />
+            </span>
+
+            {% endif %}
+             {{ post.title }}
         </h2>
         {% if post.subtitle %}
         <h3 class="post-subtitle">

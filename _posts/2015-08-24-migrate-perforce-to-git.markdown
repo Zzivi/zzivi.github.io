@@ -5,6 +5,7 @@ subtitle:   "Migrating Perforce to Git (GitHub) using GitFusion"
 date:       2015-08-24 00:00:00
 author:     "Daniel Viorreta"
 header-img: "img/gitfusion.jpg"
+icon-img:   "img/icons/git.png"
 ---
 
 <h2>Motivation</h2>

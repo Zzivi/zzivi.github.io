@@ -5,6 +5,7 @@ subtitle:   "Those who talk about technology"
 date:       2015-01-23 00:00:00
 author:     "Zzivi"
 header-img: "img/post-bg-06.jpg"
+icon-img:   "img/icons/balloons.png"
 ---
 <p>Ok, so broad as it sounds: we talk about technology. On a normal day, during breakfast we run through frameworks, libraries, tools, APIs, apps, meetups, TEDs, hackathons, events and ... occasionally mention football.</p>
 
