@@ -1,7 +1,3 @@
-#Zzivi
-
-The official Zzivi page by developers and for developers blog using Jeckyll.
-
 ###GET STARTED
 
 Jeckyll is a ruby gem, you need to install Ruby and then install Jeckyll.
