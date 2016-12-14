@@ -48,4 +48,4 @@ Library projects cannot be compiled to Android applications and started without 
 </ul>
 Within Android Studio (v1 and above) right click on your Project structure and choose the option "new module".
 </p>
-[SOURCE CODE](https://github.com/rliuzzi/apilibrary)
+<!--[SOURCE CODE](https://github.com/rliuzzi/apilibrary)-->
